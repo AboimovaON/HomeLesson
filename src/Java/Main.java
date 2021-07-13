@@ -37,11 +37,12 @@ public class Main {
                         "accountant@gmail.com",
                         "4785",
                         2000,
-                        28),
+                        28)
         };
+
         int minAge = 40;
         for (Employee employee : employees) {
-            if (employee.Age < minAge)
+            if (employee.age > minAge)
             {
                 employee.ListOfEmployees();
                 System.out.println();
